@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container,
+.school-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+.school-name {
+  font-size: 25px;
+}
+
+.app-heading {
+  font-size: clamp(1.2rem, 1.8rem, 2.5rem);
+  padding: 20px;
+  line-height: 30px;
+}
