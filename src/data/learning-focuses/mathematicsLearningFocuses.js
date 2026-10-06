@@ -1,6 +1,5 @@
 // ========================================
 // GRADE 1
-// Also used for JK and SK
 // ========================================
 
 const grade1NumberSenseLearningFocuses = [
@@ -374,22 +373,6 @@ const grade8FinancialLiteracyLearningFocuses = [
 // ========================================
 
 export const mathematicsLearningFocuses = {
-  juniorKindergarten: {
-    numberSense: grade1NumberSenseLearningFocuses,
-    algebra: grade1AlgebraLearningFocuses,
-    dataManagement: grade1DataManagementLearningFocuses,
-    spatialSense: grade1SpatialSenseLearningFocuses,
-    financialLiteracy: grade1FinancialLiteracyLearningFocuses
-  },
-
-  seniorKindergarten: {
-    numberSense: grade1NumberSenseLearningFocuses,
-    algebra: grade1AlgebraLearningFocuses,
-    dataManagement: grade1DataManagementLearningFocuses,
-    spatialSense: grade1SpatialSenseLearningFocuses,
-    financialLiteracy: grade1FinancialLiteracyLearningFocuses
-  },
-
   grade1: {
     numberSense: grade1NumberSenseLearningFocuses,
     algebra: grade1AlgebraLearningFocuses,

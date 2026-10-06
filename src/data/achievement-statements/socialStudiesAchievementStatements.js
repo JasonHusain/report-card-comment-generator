@@ -166,8 +166,6 @@ const grade6SocialStudiesAchievementStatements = {
 };
 
 const socialStudiesAchievementStatements = {
-  juniorKindergarten: grade1SocialStudiesAchievementStatements,
-  seniorKindergarten: grade1SocialStudiesAchievementStatements,
   grade1: grade1SocialStudiesAchievementStatements,
   grade2: grade2SocialStudiesAchievementStatements,
   grade3: grade3SocialStudiesAchievementStatements,

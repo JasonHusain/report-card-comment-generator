@@ -1,6 +1,5 @@
 // ========================================
 // GRADE 1
-// Also used for JK and SK
 // ========================================
 
 const grade1HeritageAndIdentityLearningFocuses = [
@@ -154,16 +153,6 @@ const grade6PeopleAndEnvironmentsLearningFocuses = [
 // ========================================
 
 export const socialStudiesLearningFocuses = {
-  juniorKindergarten: {
-    heritageAndIdentity: grade1HeritageAndIdentityLearningFocuses,
-    peopleAndEnvironments: grade1PeopleAndEnvironmentsLearningFocuses
-  },
-
-  seniorKindergarten: {
-    heritageAndIdentity: grade1HeritageAndIdentityLearningFocuses,
-    peopleAndEnvironments: grade1PeopleAndEnvironmentsLearningFocuses
-  },
-
   grade1: {
     heritageAndIdentity: grade1HeritageAndIdentityLearningFocuses,
     peopleAndEnvironments: grade1PeopleAndEnvironmentsLearningFocuses

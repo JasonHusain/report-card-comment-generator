@@ -1,6 +1,4 @@
 const gradeLevels = [
-  { value: "juniorKindergarten", label: "Junior Kindergarten" },
-  { value: "seniorKindergarten", label: "Senior Kindergarten" },
   { value: "grade1", label: "Grade 1" },
   { value: "grade2", label: "Grade 2" },
   { value: "grade3", label: "Grade 3" },

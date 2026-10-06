@@ -1,6 +1,5 @@
 // ========================================
 // GRADE 4
-// Also used for JK to Grade 3
 // ========================================
 
 const grade4ListeningLearningFocuses = [
@@ -484,20 +483,6 @@ const grade8WritingLearningFocuses = [
 // ========================================
 
 export const frenchLearningFocuses = {
-  juniorKindergarten: {
-    listening: grade4ListeningLearningFocuses,
-    speaking: grade4SpeakingLearningFocuses,
-    reading: grade4ReadingLearningFocuses,
-    writing: grade4WritingLearningFocuses
-  },
-
-  seniorKindergarten: {
-    listening: grade4ListeningLearningFocuses,
-    speaking: grade4SpeakingLearningFocuses,
-    reading: grade4ReadingLearningFocuses,
-    writing: grade4WritingLearningFocuses
-  },
-
   grade1: {
     listening: grade4ListeningLearningFocuses,
     speaking: grade4SpeakingLearningFocuses,

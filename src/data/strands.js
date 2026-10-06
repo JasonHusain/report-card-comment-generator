@@ -103,109 +103,46 @@ export const frenchStrands = [
   { value: "writing", label: "Writing" }
 ];
 
-//Arabic strands array
-export const arabicStrands = [
-  { value: "listening", label: "Listening" },
-  { value: "speaking", label: "Speaking" },
-  { value: "reading", label: "Reading" },
-  { value: "writing", label: "Writing" }
-];
-
-//Islamic Studies strands array
-export const islamicStudiesStrands = [
-  { value: "islamicFundamentals", label: "Islamic Fundamentals" },
-  { value: "islamicStories", label: "islamic Stories" },
-  { value: "hadith", label: "Hadith" },
-  { value: "islamicManners", label: "Islamic Manners" }
-];
-
-//Qur'an strands array
-export const quranStrands = [
-  { value: "recitation", label: "Recitation" },
-  { value: "memorization", label: "Memorization" }
-];
-
 //Object for strand lookup
 export const strandsByGradeAndSubject = {
-  juniorKindergarten: {
-    language: languageStrands,
-    mathematics: mathStrands,
-    science: scienceStrands,
-    socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
-  },
-  seniorKindergarten: {
-    language: languageStrands,
-    mathematics: mathStrands,
-    science: scienceStrands,
-    socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
-  },
   grade1: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
-    socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    socialStudies: socialStudiesStrands
   },
   grade2: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
-    socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    socialStudies: socialStudiesStrands
   },
   grade3: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
-    socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    socialStudies: socialStudiesStrands
   },
   grade4: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
     socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    french: frenchStrands
   },
   grade5: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
     socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    french: frenchStrands
   },
   grade6: {
     language: languageStrands,
     mathematics: mathStrands,
     science: scienceStrands,
     socialStudies: socialStudiesStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    french: frenchStrands
   },
   grade7: {
     language: languageStrands,
@@ -213,10 +150,7 @@ export const strandsByGradeAndSubject = {
     science: scienceStrands,
     history: grade7HistoryStrands,
     geography: grade7GeographyStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    french: frenchStrands
   },
   grade8: {
     language: languageStrands,
@@ -224,9 +158,6 @@ export const strandsByGradeAndSubject = {
     science: scienceStrands,
     history: grade8HistoryStrands,
     geography: grade8GeographyStrands,
-    french: frenchStrands,
-    arabic: arabicStrands,
-    islamicStudies: islamicStudiesStrands,
-    quran: quranStrands
+    french: frenchStrands
   }
 };

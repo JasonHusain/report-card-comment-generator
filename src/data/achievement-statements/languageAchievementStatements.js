@@ -445,8 +445,6 @@ const grade8LanguageAchievementStatements = {
 };
 
 const languageAchievementStatements = {
-  juniorKindergarten: grade1LanguageAchievementStatements,
-  seniorKindergarten: grade1LanguageAchievementStatements,
   grade1: grade1LanguageAchievementStatements,
   grade2: grade2LanguageAchievementStatements,
   grade3: grade3LanguageAchievementStatements,

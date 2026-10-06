@@ -1,6 +1,5 @@
 // ========================================
 // GRADE 1
-// Also used for JK and SK
 // ========================================
 
 const grade1LifeSystemsLearningFocuses = [
@@ -310,20 +309,6 @@ const grade8EarthAndSpaceLearningFocuses = [
 // ========================================
 
 export const scienceLearningFocuses = {
-  juniorKindergarten: {
-    lifeSystems: grade1LifeSystemsLearningFocuses,
-    matterAndEnergy: grade1MatterAndEnergyLearningFocuses,
-    structuresAndMechanisms: grade1StructuresAndMechanismsLearningFocuses,
-    earthAndSpace: grade1EarthAndSpaceLearningFocuses
-  },
-
-  seniorKindergarten: {
-    lifeSystems: grade1LifeSystemsLearningFocuses,
-    matterAndEnergy: grade1MatterAndEnergyLearningFocuses,
-    structuresAndMechanisms: grade1StructuresAndMechanismsLearningFocuses,
-    earthAndSpace: grade1EarthAndSpaceLearningFocuses
-  },
-
   grade1: {
     lifeSystems: grade1LifeSystemsLearningFocuses,
     matterAndEnergy: grade1MatterAndEnergyLearningFocuses,

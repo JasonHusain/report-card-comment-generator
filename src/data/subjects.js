@@ -5,31 +5,18 @@ export const allSubjects = [
   { value: "socialStudies", label: "Social Studies" },
   { value: "history", label: "History" },
   { value: "geography", label: "Geography" },
-  { value: "french", label: "French" },
-  { value: "islamicStudies", label: "Islamic Studies" },
-  { value: "quran", label: "Qur'an" },
-  { value: "arabic", label: "Arabic" }
+  { value: "french", label: "French" }
 ];
 
-const coreSubjects = [
-  "language",
-  "mathematics",
-  "science",
-  "french",
-  "arabic",
-  "islamicStudies",
-  "quran"
-];
+const coreSubjects = ["language", "mathematics", "science"];
 
 export const subjectsByGrade = {
-  juniorKindergarten: [...coreSubjects],
-  seniorKindergarten: [...coreSubjects],
   grade1: [...coreSubjects, "socialStudies"],
   grade2: [...coreSubjects, "socialStudies"],
   grade3: [...coreSubjects, "socialStudies"],
-  grade4: [...coreSubjects, "socialStudies"],
-  grade5: [...coreSubjects, "socialStudies"],
-  grade6: [...coreSubjects, "socialStudies"],
-  grade7: [...coreSubjects, "history", "geography"],
-  grade8: [...coreSubjects, "history", "geography"]
+  grade4: [...coreSubjects, "socialStudies", "french"],
+  grade5: [...coreSubjects, "socialStudies", "french"],
+  grade6: [...coreSubjects, "socialStudies", "french"],
+  grade7: [...coreSubjects, "history", "geography", "french"],
+  grade8: [...coreSubjects, "history", "geography", "french"]
 };

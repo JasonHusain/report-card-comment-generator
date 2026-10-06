@@ -387,8 +387,6 @@ const grade8ScienceAchievementStatements = {
 };
 
 const scienceAchievementStatements = {
-  juniorKindergarten: grade1ScienceAchievementStatements,
-  seniorKindergarten: grade1ScienceAchievementStatements,
   grade1: grade1ScienceAchievementStatements,
   grade2: grade2ScienceAchievementStatements,
   grade3: grade3ScienceAchievementStatements,

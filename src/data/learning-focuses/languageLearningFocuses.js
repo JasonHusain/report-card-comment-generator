@@ -1,6 +1,5 @@
 // ========================================
 // GRADE 1
-// Also used for JK and SK
 // ========================================
 
 const grade1LiteracyConnectionsLearningFocuses = [
@@ -543,22 +542,6 @@ const grade8CompositionLearningFocuses = [
 // ========================================
 
 export const languageLearningFocuses = {
-  juniorKindergarten: {
-    literacyConnectionsAndApplications:
-      grade1LiteracyConnectionsLearningFocuses,
-    foundationsOfLanguage: grade1FoundationsOfLanguageLearningFocuses,
-    comprehension: grade1ComprehensionLearningFocuses,
-    composition: grade1CompositionLearningFocuses
-  },
-
-  seniorKindergarten: {
-    literacyConnectionsAndApplications:
-      grade1LiteracyConnectionsLearningFocuses,
-    foundationsOfLanguage: grade1FoundationsOfLanguageLearningFocuses,
-    comprehension: grade1ComprehensionLearningFocuses,
-    composition: grade1CompositionLearningFocuses
-  },
-
   grade1: {
     literacyConnectionsAndApplications:
       grade1LiteracyConnectionsLearningFocuses,

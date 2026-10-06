@@ -260,8 +260,6 @@ const grade8FrenchAchievementStatements = {
 };
 
 const frenchAchievementStatements = {
-  juniorKindergarten: grade4FrenchAchievementStatements,
-  seniorKindergarten: grade4FrenchAchievementStatements,
   grade1: grade4FrenchAchievementStatements,
   grade2: grade4FrenchAchievementStatements,
   grade3: grade4FrenchAchievementStatements,
